@@ -1,0 +1,26 @@
+@use 'vars' as *;
+@use 'fn';
+
+.main-nav {
+  background-color: red;
+  padding: 0 fn.remval(24);
+
+  ul {
+    background-color: lime;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: fn.remval(36);
+  }
+
+  a {
+    font-size: fn.remval(24);
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

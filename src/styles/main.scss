@@ -1,7 +1,18 @@
 @use 'vars' as *;
 @use 'fn';
 @use 'props';
+@use 'header';
+@use 'nav';
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--uvio-bg-color);
+}
+
+marquee {
+  display: block;
+  background: black;
+  color: lime;
+  padding: 8px 8px;
 }
