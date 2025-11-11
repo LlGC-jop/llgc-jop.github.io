@@ -1,0 +1,14 @@
+@use 'sass:color';
+
+@function remval($pxValue) {
+  @return #{calc($pxValue / 16)}rem;
+}
+
+// Helper function to mix with white or black based on weight
+@function tint($color, $weight) {
+  @return color.mix(white, $color, $weight);
+}
+
+@function shade($color, $weight) {
+  @return color.mix(black, $color, $weight);
+}

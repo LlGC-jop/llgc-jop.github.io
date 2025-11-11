@@ -1,0 +1,11 @@
+@use 'vars' as *;
+@use 'fn';
+
+:root,
+[data-bs-theme='light'] {
+  --uvio-bg-color: #{$primary-100};
+}
+
+[data-bs-theme='dark'] {
+  --uvio-bg-color: #{$primary-800};
+}

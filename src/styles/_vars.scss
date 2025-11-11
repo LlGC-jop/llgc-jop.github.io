@@ -1,0 +1,14 @@
+@use 'fn';
+
+$primary: rgb(33, 115, 163);
+$primary-50: fn.tint($primary, 85%);
+$primary-100: fn.tint($primary, 75%);
+$primary-200: fn.tint($primary, 60%);
+$primary-300: fn.tint($primary, 45%);
+$primary-400: fn.tint($primary, 30%);
+$primary-500: $primary;
+$primary-600: fn.shade($primary, 10%);
+$primary-700: fn.shade($primary, 25%);
+$primary-800: fn.shade($primary, 40%);
+$primary-900: fn.shade($primary, 55%);
+$primary-950: fn.shade($primary, 70%);

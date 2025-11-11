@@ -1,0 +1,11 @@
+---
+const { platformUrl, platformName, username } = Astro.props;
+---
+
+<div class="socialIcon">
+  <a
+    class="socialLink"
+    href={`https://${platformUrl}/${username}`}
+    >{platformName}</a
+  >
+</div>
